@@ -1,0 +1,18 @@
+Create a function called fixStart. It should take a single argument, a string, and return a version where all occurrences of its first character have been replaced with ‘*****’, 
+except for the first character itself. You can assume that the string is at least one character long. 
+
+For example:
+fixStart(‘babble’): ‘ba**le’
+fixStart(‘turtle’): ‘tur*le’
+
+======================================
+
+CREATE a function with a single ARGUMENT
+
+    CREATE a variable and store the first letter of ARGUMENT
+
+    LOOP over ARGUMENT from second character a number of times equal to its length
+        IF the letter at the current index is equal to the first letter
+            REPLACE it with a star
+
+    PRINT ARGUMENT
