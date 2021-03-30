@@ -7,6 +7,7 @@ for (let i = 0; i < buttons.length; i++) {
         let animal = this.getAttribute('animal');
         // console.log(animal)
         typedValue = textSearch.value;
+        let friendlyMessage = "You have typed " + typedValue + " and clicked on " + animal;
         for (let i = 0; i < images.length; i++) {
             if(animal === 'all') {
                 images[i].style.display = 'block';
